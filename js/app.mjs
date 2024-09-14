@@ -18,8 +18,8 @@ import { setInkColor, toggleDrawCanvas } from './utils/draw.mjs';
  * To contribute, you can follow the imports above and make changes in the file
  * related to the issue you've choosen.
  *
- * If you have any questions related to code, you can drop them in my Twitter DM @saurabhcodes
- * or in my email at saurabhdaware99@gmail.com
+ * If you have any questions related to code, you can drop them in my Twitter DM @Salamucodes
+ * or in my email at itzmesalamu99@gmail.com
  *
  * Thanks! and Happy coding 🌻
  *
@@ -183,7 +183,7 @@ document.querySelectorAll('.switch-toggle input').forEach((toggleInput) => {
  */
 
 fetch(
-  'https://api.github.com/repos/saurabhdaware/text-to-handwriting/contributors'
+  'https://api.github.com/repos/itzmesalamu/text-to-handwriting/contributors'
 )
   .then((res) => res.json())
   .then((res) => {
